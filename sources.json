@@ -1,0 +1,394 @@
+[
+  {
+    "name": "OpenAI Blog",
+    "url": "https://openai.com/blog/rss.xml",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Anthropic Blog",
+    "url": "https://www.anthropic.com/rss.xml",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": false,
+    "note": "No public RSS feed available"
+  },
+  {
+    "name": "Google DeepMind",
+    "url": "https://deepmind.com/blog/rss.xml",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/rss/",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "HuggingFace Blog",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Mistral AI",
+    "url": "https://mistral.ai/news/rss",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": false,
+    "note": "No public RSS feed available"
+  },
+  {
+    "name": "Microsoft AI News",
+    "url": "https://news.microsoft.com/source/feed/?category=ai",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Cohere Blog",
+    "url": "https://cohere.substack.com/feed",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "Together AI Blog",
+    "url": "https://www.together.ai/blog/rss.xml",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "Meta AI (FB Engineering)",
+    "url": "https://engineering.fb.com/category/ml-applications/feed/",
+    "category": "AI Labs",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "AWS Machine Learning",
+    "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "category": "Cloud AI",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "Google Cloud AI",
+    "url": "https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/",
+    "category": "Cloud AI",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "Azure AI Blog",
+    "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureAIBlog",
+    "category": "Cloud AI",
+    "type": "rss",
+    "enabled": false,
+    "note": "No working RSS URL found"
+  },
+  {
+    "name": "NVIDIA AI Blog",
+    "url": "https://blogs.nvidia.com/blog/category/generative-ai/feed/",
+    "category": "Cloud AI",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "The Batch (Andrew Ng)",
+    "url": "https://www.deeplearning.ai/the-batch/feed/",
+    "category": "Newsletter",
+    "type": "rss",
+    "enabled": false,
+    "note": "No working RSS URL found"
+  },
+  {
+    "name": "Import AI",
+    "url": "https://jack-clark.net/feed/",
+    "category": "Newsletter",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "AI Breakfast",
+    "url": "https://aibreakfast.substack.com/feed",
+    "category": "Newsletter",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "AI Tidbits",
+    "url": "https://www.aitidbits.ai/feed",
+    "category": "Newsletter",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "TheSequence",
+    "url": "https://thesequence.substack.com/feed",
+    "category": "Newsletter",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Last Week in AI",
+    "url": "https://lastweekin.ai/feed",
+    "category": "Newsletter",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Add AI",
+    "url": "https://addai.substack.com/feed",
+    "category": "Newsletter",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Ben's Bites",
+    "url": "https://www.bensbites.com/feed",
+    "category": "Newsletter",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "MIT Tech Review",
+    "url": "https://www.technologyreview.com/feed/",
+    "category": "Tech Media",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "category": "Tech Media",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/rss/index.xml",
+    "category": "Tech Media",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Ars Technica AI",
+    "url": "https://arstechnica.com/tag/artificial-intelligence/feed/",
+    "category": "Tech Media",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "IEEE Spectrum AI",
+    "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+    "category": "Tech Media",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "AI News",
+    "url": "https://artificialintelligence-news.com/feed/",
+    "category": "Tech Media",
+    "type": "rss",
+    "enabled": false,
+    "note": "Times out consistently — caused 6-hour hung runs"
+  },
+  {
+    "name": "Towards Data Science",
+    "url": "https://towardsdatascience.com/feed",
+    "category": "Tech Media",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "ArXiv cs.AI",
+    "url": "https://arxiv.org/rss/cs.AI",
+    "category": "Research",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "ArXiv cs.LG",
+    "url": "https://arxiv.org/rss/cs.LG",
+    "category": "Research",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Papers With Code",
+    "url": "https://paperswithcode.com/latest/research/rss",
+    "category": "Research",
+    "type": "rss",
+    "enabled": false,
+    "note": "RSS feed returns empty — site blocks scrapers"
+  },
+  {
+    "name": "BAIR Blog",
+    "url": "https://bair.berkeley.edu/blog/feed.xml",
+    "category": "Research",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "Stanford HAI",
+    "url": "https://hai.stanford.edu/news/rss.xml",
+    "category": "Research",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "MIT News AI",
+    "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    "category": "Research",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "Weights & Biases",
+    "url": "https://wandb.ai/blog/feed",
+    "category": "Research",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "Alignment Forum",
+    "url": "https://www.alignmentforum.org/feed.xml",
+    "category": "AI Safety",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "LessWrong (curated)",
+    "url": "https://www.lesswrong.com/feed.xml?view=curated",
+    "category": "AI Safety",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "Future of Life Institute",
+    "url": "https://futureoflife.org/feed/",
+    "category": "AI Safety",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {
+    "name": "MIRI",
+    "url": "https://intelligence.org/feed/",
+    "category": "AI Safety",
+    "type": "rss",
+    "enabled": true,
+    "new": true
+  },
+  {"name": "Simon Willison",       "url": "https://simonwillison.net/atom/everything/",          "category": "Blogs", "type": "rss", "enabled": true, "new": true},
+  {"name": "One Useful Thing",     "url": "https://www.oneusefulthing.org/feed",                  "category": "Blogs", "type": "rss", "enabled": true, "new": true},
+  {"name": "Interconnects AI",     "url": "https://www.interconnects.ai/feed",                    "category": "Blogs", "type": "rss", "enabled": true, "new": true},
+  {"name": "Understanding AI",     "url": "https://www.understandingai.org/feed",                 "category": "Blogs", "type": "rss", "enabled": true, "new": true},
+  {"name": "Ahead of AI",          "url": "https://magazine.sebastianraschka.com/feed",           "category": "Blogs", "type": "rss", "enabled": true, "new": true},
+  {"name": "AI Safety Newsletter", "url": "https://newsletter.safe.ai/feed",                      "category": "AI Safety", "type": "rss", "enabled": true, "new": true},
+  {"name": "Normal Tech (AI)",     "url": "https://www.normaltech.ai/feed",                       "category": "Blogs", "type": "rss", "enabled": true, "new": true},
+  {"name": "Lil'Log (L.Weng)",    "url": "https://lilianweng.github.io/index.xml",               "category": "Blogs", "type": "rss", "enabled": true, "new": true},
+  {
+    "name": "Geektime (Hebrew)",
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "Tech Media",
+    "type": "rss",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "r/MachineLearning",
+    "url": "https://old.reddit.com/r/MachineLearning/hot/.rss",
+    "category": "Reddit",
+    "type": "reddit",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "r/LocalLLaMA",
+    "url": "https://old.reddit.com/r/LocalLLaMA/hot/.rss",
+    "category": "Reddit",
+    "type": "reddit",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "r/artificial",
+    "url": "https://old.reddit.com/r/artificial/hot/.rss",
+    "category": "Reddit",
+    "type": "reddit",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "r/singularity",
+    "url": "https://old.reddit.com/r/singularity/hot/.rss",
+    "category": "Reddit",
+    "type": "reddit",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "r/ChatGPT",
+    "url": "https://old.reddit.com/r/ChatGPT/hot/.rss",
+    "category": "Reddit",
+    "type": "reddit",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "r/OpenAI",
+    "url": "https://old.reddit.com/r/OpenAI/hot/.rss",
+    "category": "Reddit",
+    "type": "reddit",
+    "enabled": true,
+    "new": false
+  },
+  {
+    "name": "Hacker News",
+    "url": "hn.algolia.com",
+    "category": "Community",
+    "type": "hn",
+    "enabled": true,
+    "new": false
+  }
+]
