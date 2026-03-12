@@ -30,21 +30,29 @@ from config import SCHEDULE_TIMES, TIMEZONE, TELEGRAM_BOT_TOKEN
 # Logging setup
 # ---------------------------------------------------------------------------
 
-Path("logs").mkdir(exist_ok=True)
+# Use absolute paths so the agent works regardless of CWD (e.g. when started by LaunchAgent)
+_AGENT_DIR = Path(__file__).parent
+_LOGS_DIR  = _AGENT_DIR / "logs"
+_LOGS_DIR.mkdir(exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     handlers=[
         logging.StreamHandler(sys.stdout),
-        logging.FileHandler("logs/agent.log"),
+        logging.FileHandler(_LOGS_DIR / "agent.log"),
     ],
 )
 logger = logging.getLogger(__name__)
 
-LINKS_FILE    = Path("logs/latest_links.json")
-SEEN_FILE     = Path("logs/seen_urls.json")
-ACTIVITY_FILE = Path("logs/activity.json")
+# latest_links.json lives outside ~/Documents so the persistent Telegram listener
+# (which may lack Full Disk Access) can read it without permission errors.
+_SHARED_LOGS = Path.home() / "claude-code" / "logs"
+_SHARED_LOGS.mkdir(parents=True, exist_ok=True)
+
+LINKS_FILE    = _SHARED_LOGS / "latest_links.json"
+SEEN_FILE     = _LOGS_DIR / "seen_urls.json"
+ACTIVITY_FILE = _LOGS_DIR / "activity.json"
 
 # Lock prevents two digest runs overlapping (scheduled + /runnow at the same time)
 _digest_lock = threading.Lock()
