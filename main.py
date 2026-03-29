@@ -45,12 +45,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# latest_links.json lives outside ~/Documents so the persistent Telegram listener
-# (which may lack Full Disk Access) can read it without permission errors.
-_SHARED_LOGS = Path.home() / "claude-code" / "logs"
-_SHARED_LOGS.mkdir(parents=True, exist_ok=True)
-
-LINKS_FILE    = _SHARED_LOGS / "latest_links.json"
+LINKS_FILE    = _LOGS_DIR / "latest_links.json"
 SEEN_FILE     = _LOGS_DIR / "seen_urls.json"
 ACTIVITY_FILE = _LOGS_DIR / "activity.json"
 
